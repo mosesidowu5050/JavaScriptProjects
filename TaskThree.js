@@ -1,9 +1,15 @@
 const counter = {
-		count: step
-	};
+  count: 1,
+  step: 2,
 
-
-const objectCounter = function(objects){
-      
+  incrementing: function() {
+    counter.count += counter.step;
   }
-}
+};
+
+
+
+console.log(counter.count); 
+
+counter.incrementing();
+console.log(counter.count);
