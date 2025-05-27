@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Task Manager</h1>
+                <p>Manage Your Tasks</p>
+                <form id="search-tasks">
+                    <input type="text" placeholder="Search tasks...">
+                </form>
+            </div>
+        </header>
+
+        <div id="task-list">
+            <h2 class="title">Tasks to Complete</h2>
+            <ul></ul>
+        </div>
+
+        <form id="add-task">
+            <input type="text" placeholder="Add a task..." required>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+
+    <script src="./todolistapp.js"></script>
+</body>
+</html>
